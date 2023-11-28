@@ -21,6 +21,10 @@ Route::get('/projects', function () {
     return view('projects');
 });
 
+Route::get('/experience', function () {
+    return view('experience');
+});
+
 Route::get('/about', function () {
     return view('about');
 });

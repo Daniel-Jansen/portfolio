@@ -14,6 +14,12 @@
         </li>
 
         <li class="flex items-center">
+            <a href="/experience" class="bg-gradient-to-l from-gray-900 to-teal-900 rounded-md inline-block -rotate-6 p-4 w-24 flex items-end justify-center transition hover:-translate-x-4 hover:translate-y-0.5 hover:from-gray-950 hover:to-teal-950 active:opacity-50 md:bg-gradient-to-b md:rotate-6 md:w-auto md:h-24 md:hover:translate-y-4 md:hover:-translate-x-0.5">
+                <span class="rotate-6 block md:-rotate-6">Experience</span>
+            </a>
+        </li>
+
+        <li class="flex items-center">
             <a href="/about" class="bg-gradient-to-l from-gray-900 to-teal-900 rounded-md inline-block -rotate-6 p-4 w-24 flex items-end justify-center transition hover:-translate-x-4 hover:translate-y-0.5 hover:from-gray-950 hover:to-teal-950 active:opacity-50 md:bg-gradient-to-b md:rotate-6 md:w-auto md:h-24 md:hover:translate-y-4 md:hover:-translate-x-0.5">
                 <span class="rotate-6 block text-center md:-rotate-6">About me</span>
             </a>

@@ -1,6 +1,6 @@
 @extends('layouts.portfolio')
 @section('content')
-<main class="bg-repeat flex justify-center flex-col items-center">
+<main class="">
     <section class="w-full flex justify-center flex-col lg:flex-row">
         <div style="background-image: url(images/Daniël.png)" class="min-h-[12rem] bg-cover bg-center w-full opacity-[90%] lg:w-1/2"></div>
         <div class="w-full p-6 lg:w-1/2">
@@ -15,9 +15,9 @@
         <div class="bg-gradient-to-br from-yellow-800 via-yellow-900 to-yellow-950 rounded translate-y-16 translate-x-4 h-14 w-2 origin-top-left rotate-[65deg] absolute"></div>
         <div class="bg-gradient-to-bl from-yellow-800 via-yellow-900 to-yellow-950 rounded translate-y-16 -translate-x-4 h-14 w-2 origin-top-right rotate-[-65deg] absolute"></div> --}}
     </section>
-    <section>
-        <div class="">test</div>
-        <button onclick="handWave()" class="">wave!</button  >
+    <section class="w-full flex justify-center flex-col lg:flex-row">
+        <div class="w-full p-6 lg:w-1/2">test</div>
+        <div class="w-full lg:w-1/2">test</div>
     </section>
 </main>
 @stop

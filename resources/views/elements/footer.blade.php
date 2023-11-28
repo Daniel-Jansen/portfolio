@@ -3,7 +3,7 @@
         <div class="my-6 w-4/5 md:w-[400px] h-0.5 bg-gray-900 rounded-full"></div>
     </div>
 
-    <div class="flex justify-center mb-8">
+    <div class="flex justify-center mb-8 mx-8 text-center">
         <p class="">You've reached the end, you may rest here...</p>
     </div>
 </footer>
