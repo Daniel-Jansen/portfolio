@@ -6,7 +6,7 @@
         <div class="w-full p-6 lg:w-1/2">
             <span class="font-semibold text-[2.5rem]">Hello!</span><span id="hand-emoticon" class="material-symbols-outlined origin-bottom ml-3 -rotate-[26deg] skew-x-6 ease-in-out duration-200 hover:-skew-x-12 hover:rotate-[25deg]">hand_gesture</span><br>
             <p>The name's Daniël, what's your name, internet stranger?</p>
-            <input type="text" placeholder="John Doe" class="w-1/2  max-w-[16rem] bg-transparent rounded border-b border-teal-900 p-0.5 mt-1 transition-[width] duration-300 focus:outline-none focus:w-full focus:border-x focus:bg-gray-900 sm:w-[9rem]">
+            <input type="text" placeholder="John Doe" class="w-1/2  max-w-[16rem] bg-transparent rounded border-b border-teal-900 caret-teal-900 p-0.5 mt-1 transition-[width] duration-300 focus:outline-none focus:w-full focus:border-x focus:bg-gray-900 sm:w-[9rem]">
         </div>
 
         {{-- Fireplace --}}

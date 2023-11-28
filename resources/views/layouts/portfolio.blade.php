@@ -22,7 +22,7 @@
       @yield('content')
       @include('elements.footer')
     </div>
-    <div id="loading-screen" class="min-h-screen w-full absolute flex top-0 justify-center items-center transition duration-300">
+    <div id="loading-screen" class="cursor-wait min-h-screen w-full absolute flex top-0 justify-center items-center transition duration-200">
       <div>loading... </div>
       <div><span class="block material-symbols-outlined animate-spin">settings</span></div>
     </div>
