@@ -17,9 +17,29 @@
     @vite('resources/js/general.js')
   </head>
 
+  {{-- For when Javascript isn't enabled in the browser --}}
+  <noscript id="nojavascript"
+    style="
+    display: block; 
+    position: fixed; 
+    background-color: black; 
+    color: white; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center; 
+    top: 0; 
+    left: 0;"
+  >
+    <p>This portfolio website does not work without JavaScript!</p>
+    <p style="color: #525252; font-size: 0.9rem;">(seriously, it's really bad)</p>
+    <a href="https://www.google.com/search?q=How+to+enable+JavaScript" target="_blank">How to enable JavaScript</a>
+  </noscript>
+
+
   <body style="font-family: 'Space Grotesk', sans-serif; background-image: url(images/Backgrounds/Stars.png);" class="relative text-white min-h-screen bg-gradient-to-b from-gray-900 to-teal-950 overflow-hidden">
     <div id="main-content" class="transition duration-[1s] opacity-0 overflow-hidden max-h-screen">
       @include('elements.header')
+      <img src="images/Space-ship.png" id="rocket" style="left: -100px;" class="absolute transition-[left] duration-[6000ms] ease-linear cursor-pointer top-0 h-20 z-20">
       <main class="pb-28">
         @yield('content')
       </main>

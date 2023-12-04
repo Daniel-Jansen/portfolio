@@ -1,4 +1,4 @@
-<nav class="flex justify-between items-center h-auto mb-12 md:h-14">
+<header id="header" class="flex justify-between items-center h-auto mb-12 md:h-14">
     <h1 class="">Logo</h1>
     <ul class="list-none grid md:flex md:justify-end">
         <li class="flex items-center">
@@ -37,4 +37,4 @@
             </a>
         </li>
     </ul>
-</nav>
+</header>
