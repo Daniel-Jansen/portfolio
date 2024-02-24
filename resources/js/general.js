@@ -102,6 +102,14 @@ function rocketAnimation() {
     rocketStart();
 }
 
+function footerCorrection() {
+    // Gets the height of "footer"
+    const footerHeight = document.querySelector("footer").offsetHeight;
+
+    // Finds "main" to then change the paddingBottom style according to footerHeight
+    document.querySelector("main").style.paddingBottom = footerHeight + "px";
+}
+
 // Unused ChatGPT loading animation of "loading..." but the dots are replaced with planets (not used because too slow)
 // function loadingAnimation() {
 //     const planets = document.querySelectorAll('.planet');
@@ -128,11 +136,3 @@ function rocketAnimation() {
 //     // Start the animation
 //     showNextPlanet();
 // }
-
-function footerCorrection() {
-    // Gets the height of "footer"
-    const footerHeight = document.querySelector("footer").offsetHeight;
-
-    // Finds "main" to then change the paddingBottom style according to footerHeight
-    document.querySelector("main").style.paddingBottom = footerHeight + "px";
-}
